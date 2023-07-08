@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    
+}
+.navbar .logo{
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    
+}
+.navbar .menu-left a{
+    color: white;
+    text-decoration: none;
+}
+.navbar .menu-left{
+    border: 1px solid white;
+}
+.navbar .menu-right{
+    border: 1px solid white;
+       
+}
+.navbar .menu-right a{
+    color: white;
+    text-decoration: none;
+}
+.navbar .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
